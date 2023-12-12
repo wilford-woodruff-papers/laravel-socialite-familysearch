@@ -1,0 +1,33 @@
+{
+    "name": "wilford-woodruff-papers/laravel-socialite-familysearch",
+    "description": "FamilySearch OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "familysearch",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "Jon Fackrell",
+            "email": "jon.fackrell@wilfordwoodruffpapers.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wilford-woodruff-papers/laravel-socialite-familysearch/issues",
+        "source": "https://github.com/wilford-woodruff-papers/laravel-socialite-familysearch",
+        "docs": "https://github.com/wilford-woodruff-papers/laravel-socialite-familysearch"
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\FamilySearch\\": ""
+        }
+    }
+}
